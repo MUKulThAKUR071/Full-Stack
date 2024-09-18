@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background-color: rgb(177, 174, 174);
+}
+/* #table{
+      display: grid;
+      width: 900px;
+      height: 900px;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 10px;
+      background-color: aquamarine;
+} */
+.outer{
+    /* line-height: 0%; */
+    background-color: rgb(130, 126, 126);
+    /* padding-top: 1%; */
+     /* margin-left: 20px; */
+}
+h1{
+    color: rgb(127, 85, 6);
+    font-size: 120px;
+}
+h2{
+    color: rgb(161, 178, 6);
+    font-size: 80px;
+}
+h3{
+    color: rgb(68, 66, 66);
+    font-size: large;
+    margin-left: 50%;
+}
+.inner{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    width: 90%;
+    border-top-right-radius: 160px 70px;
+   
+
+}
+.inner a{
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: orange;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width:40vh;
+    border-bottom-right-radius: 600px 900px;
+    justify-content: space-around;
+    padding-bottom: 30%;
+    /* border : solid 1px red; */
+}
+.nav a{
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: orange;
+    margin-left: 60px;
+    /* padding-bottom: 10%; */
+}
+.sudoku{
+    /* border: solid 1px red; */
+    display: flex;
+    width: 75%;
+    /* justify-content: center; */
+    margin-left: 3%;
+    /* margin-top: 3%; */
+    padding-left: 50px;
+    flex-direction: column;
+    gap: 4%;
+}
+
+#container{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+/* #table{
+    margin-top: 10%;
+    border: solid 1px black;
+    height: 500px;
+    width: 500px;
+    box-shadow: 5px 5px 10px 3px rgb(0 0 0 / .8);
+} */
+td{
+    border: solid 1px black;
+    width: 100px ;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 5px 5px 10px 2px rgb(0 0 0 / .8);
+
+}
+.outerTable{
+    width: 900px;
+    height: 500px;
+}
+.a{
+    background-color: rgb(106, 166, 106);
+}
+.b{
+    background-color: rgb(152, 201, 17);
+}
+caption{
+    font-size: large;
+    color:rgb(75, 74, 74);
+    font-weight: 600;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.para{
+    text-align: left;
+    width: 950px;
+
+}
+.para h3{
+    margin-left: 0;
+    margin-bottom: 2%;
+}
+a:hover{
+    color: white;
+}
