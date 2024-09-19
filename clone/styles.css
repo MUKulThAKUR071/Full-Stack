@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+body{
+    background-color: rgb(46, 45, 45);
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    background-color: black;
+
+}
+.head{
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+button{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100px;
+    background-color: rgb(203, 136, 11);
+}
+.logo{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.outer-container{
+    display: flex;
+    justify-content: space-around;
+}
+.inner-container2 h1{
+      margin-top: 3%;
+      margin-bottom: 2%;
+      margin-left: 2%;
+}
+.outer-container img{
+    margin: 3%;
+}
+.inner-container2 p{
+    font-size: 28px;
+    margin-left: 2%;
+}
+.BO6{
+    background-color: gray;
+    width: auto;
+    border: none;
+    color: black;
+    margin-left: 2%;
+}
+.news
+{
+    color: gray
+}
+.margin{
+    margin: 2%;
+}
+.inner-container2 *{
+    margin-left: 2%;
+}
+a:hover{
+    color: wheat;
+}
+button:hover{
+    color: wheat;
+}
+img{
+    transition-duration: .5s;
+}
+.hover:hover{
+    transform: scale(1.02);
+    border-color: rgb(250, 155, 88);
+}
+.hover1:hover{
+    transform: scale(1.02);
+    border-color: rgb(250, 155, 88);
+}
+.hover{
+    border: .05px solid rgb(81, 79, 79);
+    border-radius: 2%;
+}
+.hover1{
+    border: .05px solid rgb(81, 79, 79);
+}
+h1{
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    font-family: "Anton SC", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 2%; 
+    margin-bottom: 10%;
+}
+h4{
+    font-family: "Anton SC", sans-serif;
+    font-weight: 200;
+    font-style: normal; 
+    margin-left: 2%; 
+    margin-top: .5%;
+    margin-bottom: .5%;
+}
+.Game{
+    width: 18%;
+    border: 1px solid rgb(42, 41, 41);
+    margin-top: 5%;
+    border-radius: 3%;
+}
+.GamesType{
+    display: flex;
+    justify-content: space-evenly;
+}
