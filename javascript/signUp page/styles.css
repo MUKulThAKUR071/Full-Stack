@@ -1,0 +1,21 @@
+div{
+    display: flex;
+    justify-content: center;
+    line-height: 35px;
+    border-color:solid 10px black;
+}
+h1{
+    text-align: center;
+    margin-right: 5%;
+}
+body{
+    background-image: linear-gradient(to right, blue , yellow,green);
+  }
+  button{
+    background-color: rgb(129, 193, 129);
+    border-radius: 10%;
+  }
+
+button:hover{
+    background-color: blueviolet;
+}  
